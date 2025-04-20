@@ -1,0 +1,38 @@
+# Build artifacts
+/bin
+/obj
+
+# Go workspace file
+.go_workspace
+
+# Dependency directories (don't ignore go.mod and go.sum!)
+/vendor/
+/assets/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# .env
+.env
+
+# all dependencies
+go.sum
+
+# Test result files
+*.out
+
+# Coverage reports
+*.coverprofile
+
+# Temporary files
+*.tmp
