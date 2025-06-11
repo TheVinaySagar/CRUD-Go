@@ -20,7 +20,7 @@ func ConnectDB() {
 	config.LoadEnv()
 	MONGO_URI := os.Getenv("MONGO_URI")
 
-	ctx, cancle := context.WithTimeout(context.Background(), 20*time.Second)
+	ctx, cancle := context.WithTimeout(context.Background(), 40*time.Second)
 	defer cancle()
 
 	client, err := mongo.Connect(ctx, options.Client().ApplyURI(MONGO_URI))
